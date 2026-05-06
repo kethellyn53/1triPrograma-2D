@@ -3,20 +3,41 @@
     <head>
         <title>Título do site</title>
         <meta charset="UTF-8">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css"
+        <style>
+            header{
+                display:flex;
+                width: 100%;
+                justify-content: space-between;
+                aling-items: center;
+             }
+            header img{
+                width: 10%;
+            }
+            #conteudo-header{
+                width: 100%;
+            }
+            header intput{
+                width: 93%;
+                padding: 10px;
+                border-radius: 20px; 
+            }
+            header i{
+                font-size: 24px;
+                cursor: pointer;
+                padding-left: 10px;
+            }
+
+        </style>
     </head>
     <body>
-        <h1>Cabeçalho em h1</h1>
-        <p>Parágrafo</p>
-        <!--
-        criar a tag <img>
-        <img> serve para colocar uma imagem
-        e possui os atributos: 
-        src=" " que define o caminho da imagem 
-        alt=" " que define o título de acessibilidade 
-        a sintaxe é:
-        -->
-        <img src="url" alt="texto alternativo">
-        <img style="width;100px ; height;100px
-        "https://assets-blog.hostgator.com.br/wp-content/uploads/2016/09/logica-de-programacao-blog.webp"
+        <header>
+            <img src="logo-brasilio.png">
+            <div id="conteudo-header">
+                <h3>GALERIA 2ºD</h3>
+                <input type="search">
+            </div>
+            <i class="bi bi-list"></i>
+        </header>
     </body>
 </html>
